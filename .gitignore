@@ -1,0 +1,36 @@
+# ── Entorno y secretos ────────────────────────────────
+.env
+*.env
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Entornos virtuales ────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Distribución / empaquetado ────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── IDEs ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Sistema operativo ─────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+logs/
